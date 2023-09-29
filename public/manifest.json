@@ -1,0 +1,16 @@
+{
+  "name": "Help Me Out",
+  "description": "This extension helps you record and share help videos with ease.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+      "default_popup": "index.html",
+      "default_title": "Open the popup"
+  },
+  "icons": {
+      "16": "logo.png",
+      "48": "logo.png",
+      "128": "logo.png"
+  },
+  "permissions": ["activeTab", "desktopCapture"]
+}
